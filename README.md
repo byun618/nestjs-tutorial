@@ -5,10 +5,23 @@
 ---
 
 - NestJs 시작
+
   - [Youtube](https://www.youtube.com/watch?v=GHTA143_b-s&t=8225s)
   - [Github](https://github.com/vladwulf/nestjs-api-tutorial)
   - [공식문서](https://docs.nestjs.com/first-steps)
   - [공식문서 번역](https://velog.io/@mskwon/series/Nest-JS-%EA%B3%B5%EC%8B%9D%EB%AC%B8%EC%84%9C-%EB%B2%88%EC%97%AD%ED%95%98%EA%B8%B0)
+
+- Prisma
+  - yarn add --dev prisma
+  - yarn add @prisma/client
+  - npx prisma init
+  - prisma.schema 작성
+  - npx prisma migrate dev
+    - 작성한 스키마대로 디비 구성
+  - npx prisma generate
+    - 코드에서 사용할 수 있게 client generate
+
+---
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>

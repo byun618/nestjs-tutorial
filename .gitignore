@@ -1,3 +1,5 @@
+.env
+
 # compiled output
 /dist
 /node_modules
@@ -42,3 +44,6 @@ lerna-debug.log*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Prisma
+prisma/migrations
