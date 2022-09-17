@@ -9,9 +9,9 @@ export class PrismaService extends PrismaClient {
       'DATABASE_USER',
     )}:${config.get(
       'DATABASE_PASSWORD',
-    )}@${config.get('DATABASE_URL')}/${config.get(
-      'DATABASE_NAME',
-    )}`
+    )}@${config.get(
+      'DATABASE_HOST',
+    )}/${config.get('DATABASE_NAME')}`
 
     super({
       datasources: {
