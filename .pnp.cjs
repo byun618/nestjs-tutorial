@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/platform-express", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:9.0.11"],\
             ["@nestjs/schematics", "virtual:5b213dc3c87785bc31567beb1d423d30e9529ccc47b8149c74525f8b58d7e5de05f4f6a73724af55159cda94c4d39cf72f935b54194efc55c6a98f34c42e08cf#npm:9.0.3"],\
             ["@nestjs/testing", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:9.0.11"],\
+            ["@prisma/client", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:4.3.1"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/jest", "npm:28.1.4"],\
             ["@types/node", "npm:16.11.59"],\
@@ -50,6 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:4.2.1"],\
             ["jest", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:28.1.2"],\
             ["prettier", "npm:2.7.1"],\
+            ["prisma", "npm:4.3.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:3.0.2"],\
             ["rxjs", "npm:7.5.6"],\
@@ -1656,6 +1658,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.2"],\
             ["consola", "npm:2.15.3"],\
             ["node-fetch", "virtual:72db6b3551c1b46986e711aee96d1643b26ff6991672401c35442adfbef36d10ccd9289b58e518aac04afe4e688ca4b130da9fae9c1c040113a2585b8cfeea9a#npm:2.6.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@prisma/client", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-a2db931e9f/node_modules/@prisma/client/",\
+          "packageDependencies": [\
+            ["@prisma/client", "npm:4.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:4.3.1", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-a2db931e9f/node_modules/@prisma/client/",\
+          "packageDependencies": [\
+            ["@prisma/client", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:4.3.1"],\
+            ["@prisma/engines-version", "npm:4.3.0-32.c875e43600dfe042452e0b868f7a48b817b9640b"],\
+            ["@types/prisma", null],\
+            ["prisma", "npm:4.3.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/prisma",\
+            "prisma"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@prisma/engines", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-engines-npm-4.3.1-241ea392c5/node_modules/@prisma/engines/",\
+          "packageDependencies": [\
+            ["@prisma/engines", "npm:4.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@prisma/engines-version", [\
+        ["npm:4.3.0-32.c875e43600dfe042452e0b868f7a48b817b9640b", {\
+          "packageLocation": "./.yarn/cache/@prisma-engines-version-npm-4.3.0-32.c875e43600dfe042452e0b868f7a48b817b9640b-aeb6ad8109-268eb72da6.zip/node_modules/@prisma/engines-version/",\
+          "packageDependencies": [\
+            ["@prisma/engines-version", "npm:4.3.0-32.c875e43600dfe042452e0b868f7a48b817b9640b"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6425,6 +6468,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/platform-express", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:9.0.11"],\
             ["@nestjs/schematics", "virtual:5b213dc3c87785bc31567beb1d423d30e9529ccc47b8149c74525f8b58d7e5de05f4f6a73724af55159cda94c4d39cf72f935b54194efc55c6a98f34c42e08cf#npm:9.0.3"],\
             ["@nestjs/testing", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:9.0.11"],\
+            ["@prisma/client", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:4.3.1"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/jest", "npm:28.1.4"],\
             ["@types/node", "npm:16.11.59"],\
@@ -6436,6 +6480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:4.2.1"],\
             ["jest", "virtual:7962e79ca69bd106bee93cd1544687be7bc67c49b69617b740ca45f841c86a04d135ba25515964a7e32f517948adc9be871c88c2ce51e1e12e954af581309a33#npm:28.1.2"],\
             ["prettier", "npm:2.7.1"],\
+            ["prisma", "npm:4.3.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:3.0.2"],\
             ["rxjs", "npm:7.5.6"],\
@@ -6912,6 +6957,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-regex", "npm:5.0.1"],\
             ["ansi-styles", "npm:5.2.0"],\
             ["react-is", "npm:18.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prisma", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/unplugged/prisma-npm-4.3.1-000685a070/node_modules/prisma/",\
+          "packageDependencies": [\
+            ["prisma", "npm:4.3.1"],\
+            ["@prisma/engines", "npm:4.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
