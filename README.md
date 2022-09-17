@@ -35,8 +35,13 @@
   - 이메일 중복시, 에러처리
 
 - Sign in
+
   - argon2.verify를 이용하여 입력한 password와 db hashing 된 문자와 비교
   - 이메일, 비밀번호 일치하지 않을 때마다, 에러반환
+
+- @nestjs/config
+  - app.module에서 ConfigModule을 통해 .env 연결
+  - prisma.service에 하드 코딩 되어있던 환경변수 수정
 
 ---
 
