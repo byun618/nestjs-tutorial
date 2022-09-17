@@ -55,6 +55,7 @@
     - secret은 이것을 사용하겠다 등
 
 - Guard
+
   - global, controller, router level에서 사용 가능
   - @UseGuards(AuthGuard('jwt')) -> 여기서 'jwt'는 AuthGuard strategy?의 key이다.
     - jwt.strategy 에서 PassportStrategy extends할 때 key를 정할수 있다.
@@ -62,6 +63,49 @@
   - jwt.strategy에서 validate 함수를 구현하여, user를 db에서 조회하여 넘긴다.
     - 여기서 return 하는것이 req.user로 들어간다.
     - 여기서는 user만 db에서 조회하고, 나머지 users/me에서 반환하고 싶은것이 있으면, service에서 구현하도록 하자.
+
+- Custom Decorator
+
+  - Decorator는 annotation과 같은것, @가 앞에 붙어있는 것이다.
+  - createParamDecorator을 이용하여 만들수 있다.
+  - data param은 @GetUser(), 여기 괄호 안에 들어가는 것에 해당한다. - 이것을 통해 get-user에 한정하자면, `request.user[data]`를 통해 특정 필드만 반환이 가능하다.
+
+    ```
+    import {
+      createParamDecorator,
+      ExecutionContext,
+    } from '@nestjs/common'
+
+    export const GetUser = createParamDecorator(
+      (
+        data: string | undefined,
+        ctx: ExecutionContext,
+      ) => {
+        const request = ctx
+        .switchToHttp()
+        .getRequest()
+
+            if (data) {
+              return request.user[data]
+            }
+
+            return request.user
+
+        },
+      )
+    ```
+
+    ```
+    @UseGuards(JwtGuard)
+    @Get('me/email')
+    getMyEmail(
+      @GetUser('email') userEmail: string,
+    ) {
+      return userEmail
+    }
+    ```
+
+  - 각 라우터에 `@HttpCode(HttpStatus.~~)`를 통해 status code를 수정할 수 있다.
 
 ---
 
