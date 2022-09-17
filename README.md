@@ -28,10 +28,15 @@
   - dto class에서 annotation을 통해 조건? 추가
   - main.ts에서 useGlobalPipes(new ValidationPipe()) 사용하여 적용
 
-- Signup
+- Sign up
+
   - argon2를 이용하여 hashing
   - prisma schema를 이용하여 relation 정의
   - 이메일 중복시, 에러처리
+
+- Sign in
+  - argon2.verify를 이용하여 입력한 password와 db hashing 된 문자와 비교
+  - 이메일, 비밀번호 일치하지 않을 때마다, 에러반환
 
 ---
 
