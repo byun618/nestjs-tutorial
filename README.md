@@ -23,9 +23,15 @@
     - 코드에서 사용할 수 있게 client generate
 
 - Pipes
+
   - yarn add class-validator class-transformer
   - dto class에서 annotation을 통해 조건? 추가
   - main.ts에서 useGlobalPipes(new ValidationPipe()) 사용하여 적용
+
+- Signup
+  - argon2를 이용하여 hashing
+  - prisma schema를 이용하여 relation 정의
+  - 이메일 중복시, 에러처리
 
 ---
 
