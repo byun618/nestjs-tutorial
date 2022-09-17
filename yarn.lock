@@ -93,6 +93,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@arr/every@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@arr/every@npm:1.0.1"
+  checksum: fc33cd8f3244db7053b89898fc0d1753dd17f40328a443d8640dc15578ed74c59d8e12fe8de87ddb20a2cee578dc0dd9fbb94eb77ef209158fb615bb904b684f
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.16.7, @babel/code-frame@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/code-frame@npm:7.18.6"
@@ -505,6 +512,13 @@ __metadata:
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
   checksum: 2074dca47d7e1c5c6323ff353f690f4b25d3ab53fe7d27337e2592d37a894cf60ca0e85ca66b50ff2db0bc7e630cc1e9c7347d65bb185b61416565584c38999c
+  languageName: node
+  linkType: hard
+
+"@exodus/schemasafe@npm:^1.0.0-rc.7":
+  version: 1.0.0-rc.7
+  resolution: "@exodus/schemasafe@npm:1.0.0-rc.7"
+  checksum: 965577141f5aa261a94e2a432f35bbbc086443c302bf16c641b35208d237367559ffb6910a8f1bfdf1b19efe8121851d196e0d754cfb8608f8d76b44e6f3b482
   languageName: node
   linkType: hard
 
@@ -1126,6 +1140,13 @@ __metadata:
   version: 1.0.0
   resolution: "@phc/format@npm:1.0.0"
   checksum: 15ee02504fbc16590923d89b1f1c2f5892df27cf2bf19180e5678511413e87b6e5355815a092749cd01698855ee5a0fc5d2393951c727acd650934eed290e26e
+  languageName: node
+  linkType: hard
+
+"@polka/url@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@polka/url@npm:0.5.0"
+  checksum: 3f007adf9c271b28992ebff1df6424e75e7d579493c66969356a9b5dada18480583744dbc28a7467371fa10eb794a5e1dc1f3fcd359c0b5685f4f9c6592cd312
   languageName: node
   linkType: hard
 
@@ -2409,6 +2430,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"centra@npm:^2.4.2":
+  version: 2.5.0
+  resolution: "centra@npm:2.5.0"
+  checksum: f3c66d372a886cd2311bc6b25a4ba4e354170928161bba0bc0995d9697e65b93bc7de115f85c4b8202f8d556f629434531ef2326ce36f222a4e6dde86e36fc75
+  languageName: node
+  linkType: hard
+
 "chalk@npm:3.0.0":
   version: 3.0.0
   resolution: "chalk@npm:3.0.0"
@@ -2823,6 +2851,13 @@ __metadata:
   version: 0.1.4
   resolution: "deep-is@npm:0.1.4"
   checksum: edb65dd0d7d1b9c40b2f50219aef30e116cedd6fc79290e740972c132c09106d2e80aa0bc8826673dd5a00222d4179c84b36a790eef63a4c4bca75a37ef90804
+  languageName: node
+  linkType: hard
+
+"deep-override@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "deep-override@npm:1.0.2"
+  checksum: 1f0a8880f8a40ede966c39e8308e8dd2c35699cbf9e9f763c1772bfb09fa1de6d44a813faf0f55812d0b37285299838552b1057ec49ee34db13ab632e0175077
   languageName: node
   linkType: hard
 
@@ -3551,6 +3586,17 @@ __metadata:
     vue-template-compiler:
       optional: true
   checksum: 3d4694c6fee4b8b2f213d0d10a3f40da770ca0ed3aa2a3dc8d1e701ad1ecaed3a1507f77a1b0cea6ef80539b04d8e5f5f02560e688d310bcb9e8c81f684d2950
+  languageName: node
+  linkType: hard
+
+"form-data-lite@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "form-data-lite@npm:1.0.3"
+  dependencies:
+    asynckit: ^0.4.0
+    combined-stream: ^1.0.8
+    mime-lite: ^1.0.3
+  checksum: 359737f0fc7308030ec4097dc8fd202a104a94406416c893a640b48de70eeebb6cdb3c79751de06e8e39b9bf454ca2ddf2a817d70b2de203e9b104e57a49967f
   languageName: node
   linkType: hard
 
@@ -4773,6 +4819,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json-query@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "json-query@npm:2.2.2"
+  checksum: dba8bb9213124bac9c3a3bd13a9993754069d1c2b1acc0cd2537472b5f95176d690690684081155c4ee5f161d2f7d209cf9761dbf6407e42c61f4bf7a29aa53b
+  languageName: node
+  linkType: hard
+
 "json-schema-traverse@npm:^0.4.1":
   version: 0.4.1
   resolution: "json-schema-traverse@npm:0.4.1"
@@ -4876,6 +4929,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"klona@npm:^2.0.4, klona@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "klona@npm:2.0.5"
+  checksum: 8c976126ea252b766e648a4866e1bccff9d3b08432474ad80c559f6c7265cf7caede2498d463754d8c88c4759895edd8210c85c0d3155e6aae4968362889466f
+  languageName: node
+  linkType: hard
+
 "leven@npm:^3.1.0":
   version: 3.1.0
   resolution: "leven@npm:3.1.0"
@@ -4897,6 +4957,13 @@ __metadata:
   version: 1.10.13
   resolution: "libphonenumber-js@npm:1.10.13"
   checksum: a1740bbed8faa1adb4ae01dda6a7c16b4fd2917efdd9bafac53fa06d9e4b53dc67543d282f7fd0043649edddc0f03359448a17adb837e534358c7ba92c7dc268
+  languageName: node
+  linkType: hard
+
+"lightcookie@npm:^1.0.25":
+  version: 1.0.25
+  resolution: "lightcookie@npm:1.0.25"
+  checksum: 86f753d5b442f593670f54033d09a93dd8523f4fa499cd85d0abc676766b4307bcad0bee839f39405348286a7312fb04cc76068edb99264ee17ec6d65ae68a48
   languageName: node
   linkType: hard
 
@@ -5093,6 +5160,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"matchit@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "matchit@npm:1.1.0"
+  dependencies:
+    "@arr/every": ^1.0.0
+  checksum: 14617343d9f77a5f2a2e9e5213b1d6c1c7b3efda10758d1502e632edf63bf77f260e3f1aa2afdc97dd7e259fae7845a1b07719cd4680d2f1d23b2aa45a393934
+  languageName: node
+  linkType: hard
+
 "media-typer@npm:0.3.0":
   version: 0.3.0
   resolution: "media-typer@npm:0.3.0"
@@ -5151,6 +5227,13 @@ __metadata:
   version: 1.52.0
   resolution: "mime-db@npm:1.52.0"
   checksum: 0d99a03585f8b39d68182803b12ac601d9c01abfa28ec56204fa330bc9f3d1c5e14beb049bafadb3dbdf646dfb94b87e24d4ec7b31b7279ef906a8ea9b6a513f
+  languageName: node
+  linkType: hard
+
+"mime-lite@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "mime-lite@npm:1.0.3"
+  checksum: 6bc68c97273bf6da586383dbe8415675f0000ac51622f871073a4012a26c3486342ab7837a1f3d5ed734ed38d58996c90487adf88c6b6528ee2ce43b39b1656d
   languageName: node
   linkType: hard
 
@@ -5396,6 +5479,7 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-plugin-prettier: ^4.0.0
     jest: 28.1.2
+    pactum: ^3.2.2
     passport: ^0.6.0
     passport-jwt: ^4.0.0
     passport-local: ^1.0.0
@@ -5586,6 +5670,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"openapi-fuzzer-core@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "openapi-fuzzer-core@npm:1.0.6"
+  dependencies:
+    klona: ^2.0.4
+  checksum: c609c28adc34f9bd4e53568296cc06c877b1f3768feb740adb5369054b0bc3b3ae9491f2e88d468f3ec7dde2ca99c3921f213898db11b14e3954e46e65c90842
+  languageName: node
+  linkType: hard
+
 "optionator@npm:^0.9.1":
   version: 0.9.1
   resolution: "optionator@npm:0.9.1"
@@ -5686,12 +5779,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pactum-matchers@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "pactum-matchers@npm:1.1.3"
+  checksum: 7f495b98f433159d8a218e95fce5892f5479169fa710319bd377bdcc46e3307da289e5176f4ff0236fb222c4fdd53f8afdb5c50e4ba2298258c32faf6804675b
+  languageName: node
+  linkType: hard
+
+"pactum@npm:^3.2.2":
+  version: 3.2.2
+  resolution: "pactum@npm:3.2.2"
+  dependencies:
+    "@exodus/schemasafe": ^1.0.0-rc.7
+    deep-override: ^1.0.2
+    form-data-lite: ^1.0.3
+    json-query: ^2.2.2
+    klona: ^2.0.5
+    lightcookie: ^1.0.25
+    openapi-fuzzer-core: ^1.0.6
+    pactum-matchers: ^1.1.3
+    parse-graphql: ^1.0.0
+    phin: ^3.6.0
+    polka: ^0.5.2
+  checksum: d183f9125f2c6758a1fdb2322a12c2e280957b96b99cce267734a4f0144930ba925699022bb097290e58d12f5b44433de7924c1123897f50c28fe36cf24e73d6
+  languageName: node
+  linkType: hard
+
 "parent-module@npm:^1.0.0":
   version: 1.0.1
   resolution: "parent-module@npm:1.0.1"
   dependencies:
     callsites: ^3.0.0
   checksum: 6ba8b255145cae9470cf5551eb74be2d22281587af787a2626683a6c20fbb464978784661478dd2a3f1dad74d1e802d403e1b03c1a31fab310259eec8ac560ff
+  languageName: node
+  linkType: hard
+
+"parse-graphql@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "parse-graphql@npm:1.0.0"
+  checksum: b4b50f8b2db287764c8f7acb434f6eefbaec8fdbef1cd70120bb934ab57f431eff3c819ce6ca4eb0bc649cc5772b6a0b8fde2333f14974a677db5d1d0dd0182c
   languageName: node
   linkType: hard
 
@@ -5807,6 +5933,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"phin@npm:^3.6.0":
+  version: 3.6.1
+  resolution: "phin@npm:3.6.1"
+  dependencies:
+    centra: ^2.4.2
+  checksum: 17fbddfec9d6f1359460fa6f7f33db9e4d5380bda1bd2745e75810b92e53fd3c5713086c951683a8c8b6526aaa172b031b2858b1c66c3a120a06963ffe26136e
+  languageName: node
+  linkType: hard
+
 "picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
@@ -5841,6 +5976,16 @@ __metadata:
   version: 8.0.0
   resolution: "pluralize@npm:8.0.0"
   checksum: 08931d4a6a4a5561a7f94f67a31c17e6632cb21e459ab3ff4f6f629d9a822984cf8afef2311d2005fbea5d7ef26016ebb090db008e2d8bce39d0a9a9d218736e
+  languageName: node
+  linkType: hard
+
+"polka@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "polka@npm:0.5.2"
+  dependencies:
+    "@polka/url": ^0.5.0
+    trouter: ^2.0.1
+  checksum: 5f4994e78985e10f77fcccced4d3781ba3f896059f66be6099ee189007b73a9bd4d136f73e4156f731bfe3ead66b1d44448b9be6e57e88fa28b53a6096bd3f11
   languageName: node
   linkType: hard
 
@@ -6804,6 +6949,15 @@ __metadata:
   bin:
     tree-kill: cli.js
   checksum: 49117f5f410d19c84b0464d29afb9642c863bc5ba40fcb9a245d474c6d5cc64d1b177a6e6713129eb346b40aebb9d4631d967517f9fbe8251c35b21b13cd96c7
+  languageName: node
+  linkType: hard
+
+"trouter@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "trouter@npm:2.0.1"
+  dependencies:
+    matchit: ^1.0.0
+  checksum: 4a25e81a132d75e8659a29c4b1f6a91eff06601a78a9d1fc189d525ad0298881ed7db7a82045a3b7d1fcc52cb283d2ca7b79eb908de02088798de36659d5205c
   languageName: node
   linkType: hard
 
