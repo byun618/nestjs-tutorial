@@ -107,6 +107,11 @@
 
   - 각 라우터에 `@HttpCode(HttpStatus.~~)`를 통해 status code를 수정할 수 있다.
 
+- E2E Test
+  - TestDB를 띄워 디비간에 연결 확인. .env.test를 dotenv-cli와 함께 테스트 실행
+  - fixture 설정을 해주고, 각 테스트 케이스를 확인한다.
+  - pactum의 `stores()` 함수를 이용해, 토큰 등을 저장하고 사용한다.
+
 ---
 
 <p align="center">
