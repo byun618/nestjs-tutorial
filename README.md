@@ -12,6 +12,7 @@
   - [공식문서 번역](https://velog.io/@mskwon/series/Nest-JS-%EA%B3%B5%EC%8B%9D%EB%AC%B8%EC%84%9C-%EB%B2%88%EC%97%AD%ED%95%98%EA%B8%B0)
 
 - Prisma
+
   - yarn add --dev prisma
   - yarn add @prisma/client
   - npx prisma init
@@ -20,6 +21,11 @@
     - 작성한 스키마대로 디비 구성
   - npx prisma generate
     - 코드에서 사용할 수 있게 client generate
+
+- Pipes
+  - yarn add class-validator class-transformer
+  - dto class에서 annotation을 통해 조건? 추가
+  - main.ts에서 useGlobalPipes(new ValidationPipe()) 사용하여 적용
 
 ---
 
