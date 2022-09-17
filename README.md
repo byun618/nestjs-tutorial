@@ -40,8 +40,15 @@
   - 이메일, 비밀번호 일치하지 않을 때마다, 에러반환
 
 - @nestjs/config
+
   - app.module에서 ConfigModule을 통해 .env 연결
   - prisma.service에 하드 코딩 되어있던 환경변수 수정
+
+- passport & JWT
+  - yarn add @nestjs/passport passport passport-local
+  - yarn add --dev @types/passport-local
+  - yarn add @nestjs/jwt passport-jwt
+  - yarn add --dev @types/passport-jwt
 
 ---
 
