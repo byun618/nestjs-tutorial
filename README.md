@@ -49,6 +49,9 @@
   - yarn add --dev @types/passport-local
   - yarn add @nestjs/jwt passport-jwt
   - yarn add --dev @types/passport-jwt
+  - auth 폴더 아래 jwt strategy 정의하여 사용
+    - authorization header에서 token을 extract 하겠다.
+    - secret은 이것을 사용하겠다 등
 
 ---
 
