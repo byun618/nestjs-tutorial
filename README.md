@@ -45,6 +45,7 @@
   - prisma.service에 하드 코딩 되어있던 환경변수 수정
 
 - passport & JWT
+
   - yarn add @nestjs/passport passport passport-local
   - yarn add --dev @types/passport-local
   - yarn add @nestjs/jwt passport-jwt
@@ -52,6 +53,15 @@
   - auth 폴더 아래 jwt strategy 정의하여 사용
     - authorization header에서 token을 extract 하겠다.
     - secret은 이것을 사용하겠다 등
+
+- Guard
+  - global, controller, router level에서 사용 가능
+  - @UseGuards(AuthGuard('jwt')) -> 여기서 'jwt'는 AuthGuard strategy?의 key이다.
+    - jwt.strategy 에서 PassportStrategy extends할 때 key를 정할수 있다.
+    - default 는 jwt다.
+  - jwt.strategy에서 validate 함수를 구현하여, user를 db에서 조회하여 넘긴다.
+    - 여기서 return 하는것이 req.user로 들어간다.
+    - 여기서는 user만 db에서 조회하고, 나머지 users/me에서 반환하고 싶은것이 있으면, service에서 구현하도록 하자.
 
 ---
 
