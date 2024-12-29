@@ -30,3 +30,6 @@ export class UserController {
     return this.userService.editUser(userId, dto)
   }
 }
+
+// # nest-test
+// PAY-API NestJS version
